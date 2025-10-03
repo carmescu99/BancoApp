@@ -1,0 +1,65 @@
+/* Reset básico */
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #495568;
+  color: #333;
+}
+
+/* Caja principal de cada página */
+main {
+  max-width: 500px;
+  margin: 150px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+/* Inputs */
+input {
+  width: 100%;
+  padding: 5px;
+  margin-left: -5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  color: #333;
+  
+}
+
+input:focus {
+  border-color: #0077ff;
+  outline: none;
+  box-shadow: 0 0 4px rgba(0, 119, 255, 0.3);
+}
+
+/* Botones */
+button {
+  width: 100%;
+  padding: 12px;
+  margin-top: 10px;
+  background: #3065a2;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+button:hover {
+  background: #2e5076;
+}
+
+/* Mensajes de error */
+p {
+  font-size: 14px;
+  margin-top: 30px;
+}
+
+p[style*="red"] {
+  color: #d9534f !important;
+  font-weight: bold;
+}
